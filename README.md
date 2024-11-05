@@ -1,6 +1,6 @@
 # cleancode-mex-2024
 Knowledge Repo
 
-## Try out
+## Try It
 ----
 - [Being Principled](srp.md) &nbsp;&nbsp;&nbsp;
