@@ -54,3 +54,5 @@ int printColorMap() {
 ## Try It
 ----
 - [Being Principled](srp.md) &nbsp;&nbsp;&nbsp;
+  - https://github.com/tts-tcq-2024/modular-in-c-Shanmukharao9
+  - https://github.com/tts-tcq-2024/modular-in-c-Sreejith-Sasikumar
