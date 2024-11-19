@@ -2,10 +2,13 @@
 #include <iostream>
 using namespace std;
 
+//Abstraction
 class ITPMSValueProvider{
     public:
     virtual int getPSIValues()=0;
 };
+
+//Low Level Module - Services
 class NexDigitronTPMS:public ITPMSValueProvider{
   public:
         NexDigitronTPMS(){
@@ -16,6 +19,7 @@ class NexDigitronTPMS:public ITPMSValueProvider{
     }
         int getPSIValues(){ return 0;}
 };
+//Low Level Module - Services
 class BoschTPMS:public ITPMSValueProvider{
     public:
 BoschTPMS(){
@@ -35,6 +39,8 @@ public:
             cout<<"Engine Destructed "<<endl;
     }
 };
+
+//High Level Module, Dependent, Client
 class Car{
         //Contains,composition , death relationship
         Engine engineObj;
