@@ -56,3 +56,7 @@ int printColorMap() {
 - [Being Principled](srp.md) &nbsp;&nbsp;&nbsp;
   - https://github.com/tts-tcq-2024/modular-in-c-Shanmukharao9
   - https://github.com/tts-tcq-2024/modular-in-c-Sreejith-Sasikumar
+
+- Effective Testing
+- https://github.com/venu-shastri/unit-practice-in-cpp.git
+- https://github.com/venu-shastri/unit-practice-in-java.git
